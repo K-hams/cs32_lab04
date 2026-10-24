@@ -14,7 +14,12 @@ IceCreamItem :: IceCreamItem(std::string size) {
 	std::map<std::string, double> costs{{"small", 3.00}, {"medium", 5.00}, {"large", 6.50}}; 
 	//matching map toinputted size
 	price = costs.at(size); 
+
 }
+
+//IceCream Desturcutor
+
+
 
 
 

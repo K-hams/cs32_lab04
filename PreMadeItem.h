@@ -7,7 +7,7 @@
 class PreMadeItem : public IceCreamItem {
 public:
     PreMadeItem(std::string name, std::string size);
-    virtual ~PreMadeItem() override;
+    virtual ~PreMadeItem() ;
 
     std::string composeItem() override;
     double  getPrice() override;
