@@ -11,6 +11,7 @@ all: ${BINARIES}
 %.o: %.cpp
 	${CXX} ${CXXFLAGS} -c $< -o $@
 
+
 testIceCreamOrder1: testIceCreamOrder1.o IceCreamOrder.o IceCreamItem.o CustomItem.o PreMadeItem.o tddFuncs.o
 	${CXX} $^ -o $@
 
