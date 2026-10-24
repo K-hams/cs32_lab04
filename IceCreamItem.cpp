@@ -16,6 +16,5 @@ IceCreamItem :: IceCreamItem(std::string size) {
 	price = costs.at(size); 
 }
 
-IceCreamItem:: ~IceCreamItem(){};
 
 
