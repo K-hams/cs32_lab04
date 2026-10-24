@@ -8,7 +8,7 @@
 class CustomItem : public IceCreamItem {
 public:
     CustomItem(std::string size);
-    ~CustomItem() override;
+    virtual ~CustomItem() override;
 
     std::string composeItem() override;
     double getPrice() override;
